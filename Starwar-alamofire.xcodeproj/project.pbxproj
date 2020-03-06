@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		1789168624125ED4001AE293 /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789168524125ED4001AE293 /* PersonApi.swift */; };
 		1789168824126012001AE293 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789168724126012001AE293 /* constants.swift */; };
 		1789168A241260EA001AE293 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17891689241260EA001AE293 /* Person.swift */; };
+		1789168C24127A03001AE293 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789168B24127A03001AE293 /* DetailVC.swift */; };
 		72AA84144526553C088C800A /* Pods_Starwar_alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412A0FE64F9DC89A62B32E05 /* Pods_Starwar_alamofire.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		1789168524125ED4001AE293 /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
 		1789168724126012001AE293 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		17891689241260EA001AE293 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		1789168B24127A03001AE293 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		412A0FE64F9DC89A62B32E05 /* Pods_Starwar_alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Starwar_alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFF59A73291F7C38676B726 /* Pods-Starwar-alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starwar-alamofire.debug.xcconfig"; path = "Target Support Files/Pods-Starwar-alamofire/Pods-Starwar-alamofire.debug.xcconfig"; sourceTree = "<group>"; };
 		69F569E2752194B774B1A45E /* Pods-Starwar-alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starwar-alamofire.release.xcconfig"; path = "Target Support Files/Pods-Starwar-alamofire/Pods-Starwar-alamofire.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				1789166D24125E8F001AE293 /* AppDelegate.swift */,
 				1789166F24125E8F001AE293 /* SceneDelegate.swift */,
 				1789167124125E8F001AE293 /* ViewController.swift */,
+				1789168B24127A03001AE293 /* DetailVC.swift */,
 				1789168724126012001AE293 /* constants.swift */,
 				1789167324125E8F001AE293 /* Main.storyboard */,
 				1789167924125E92001AE293 /* Assets.xcassets */,
@@ -108,7 +111,6 @@
 				4DFF59A73291F7C38676B726 /* Pods-Starwar-alamofire.debug.xcconfig */,
 				69F569E2752194B774B1A45E /* Pods-Starwar-alamofire.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -232,6 +234,7 @@
 				1789166E24125E8F001AE293 /* AppDelegate.swift in Sources */,
 				1789168624125ED4001AE293 /* PersonApi.swift in Sources */,
 				1789168A241260EA001AE293 /* Person.swift in Sources */,
+				1789168C24127A03001AE293 /* DetailVC.swift in Sources */,
 				1789167024125E8F001AE293 /* SceneDelegate.swift in Sources */,
 				1789168824126012001AE293 /* constants.swift in Sources */,
 			);

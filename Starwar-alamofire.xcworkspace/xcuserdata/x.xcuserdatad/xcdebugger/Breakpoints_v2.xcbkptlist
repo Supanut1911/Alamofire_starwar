@@ -8,20 +8,20 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "77186405-301C-48ED-9430-980A5EF0B617"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Starwar-alamofire/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "fetchData()"
             landmarkType = "7">
             <Locations>
                <Location
                   uuid = "77186405-301C-48ED-9430-980A5EF0B617 - f0cfd0b10a6489bf"
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Starwar_alamofire.ViewController.fetchData() -&gt; ()"
@@ -36,7 +36,7 @@
                </Location>
                <Location
                   uuid = "77186405-301C-48ED-9430-980A5EF0B617 - 82dcb1adc79bb8b1"
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Swift.Optional&lt;Starwar_alamofire.Person&gt;) -&gt; () in Starwar_alamofire.ViewController.fetchData() -&gt; ()"
