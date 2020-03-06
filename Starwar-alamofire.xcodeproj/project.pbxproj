@@ -14,6 +14,10 @@
 		1789167824125E8F001AE293 /* Starwar_alamofire.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1789167624125E8F001AE293 /* Starwar_alamofire.xcdatamodeld */; };
 		1789167A24125E92001AE293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1789167924125E92001AE293 /* Assets.xcassets */; };
 		1789167D24125E92001AE293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1789167B24125E92001AE293 /* LaunchScreen.storyboard */; };
+		1789168624125ED4001AE293 /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789168524125ED4001AE293 /* PersonApi.swift */; };
+		1789168824126012001AE293 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789168724126012001AE293 /* constants.swift */; };
+		1789168A241260EA001AE293 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17891689241260EA001AE293 /* Person.swift */; };
+		72AA84144526553C088C800A /* Pods_Starwar_alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412A0FE64F9DC89A62B32E05 /* Pods_Starwar_alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		1789167924125E92001AE293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1789167C24125E92001AE293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1789167E24125E92001AE293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1789168524125ED4001AE293 /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
+		1789168724126012001AE293 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		17891689241260EA001AE293 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		412A0FE64F9DC89A62B32E05 /* Pods_Starwar_alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Starwar_alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFF59A73291F7C38676B726 /* Pods-Starwar-alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starwar-alamofire.debug.xcconfig"; path = "Target Support Files/Pods-Starwar-alamofire/Pods-Starwar-alamofire.debug.xcconfig"; sourceTree = "<group>"; };
+		69F569E2752194B774B1A45E /* Pods-Starwar-alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starwar-alamofire.release.xcconfig"; path = "Target Support Files/Pods-Starwar-alamofire/Pods-Starwar-alamofire.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72AA84144526553C088C800A /* Pods_Starwar_alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				1789166C24125E8F001AE293 /* Starwar-alamofire */,
 				1789166B24125E8F001AE293 /* Products */,
+				C90D179FC7990890522AA155 /* Pods */,
+				3C5B0C6F917B04E1399887DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +71,11 @@
 		1789166C24125E8F001AE293 /* Starwar-alamofire */ = {
 			isa = PBXGroup;
 			children = (
+				1789168424125EC5001AE293 /* Service */,
 				1789166D24125E8F001AE293 /* AppDelegate.swift */,
 				1789166F24125E8F001AE293 /* SceneDelegate.swift */,
 				1789167124125E8F001AE293 /* ViewController.swift */,
+				1789168724126012001AE293 /* constants.swift */,
 				1789167324125E8F001AE293 /* Main.storyboard */,
 				1789167924125E92001AE293 /* Assets.xcassets */,
 				1789167B24125E92001AE293 /* LaunchScreen.storyboard */,
@@ -70,6 +85,33 @@
 			path = "Starwar-alamofire";
 			sourceTree = "<group>";
 		};
+		1789168424125EC5001AE293 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1789168524125ED4001AE293 /* PersonApi.swift */,
+				17891689241260EA001AE293 /* Person.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3C5B0C6F917B04E1399887DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				412A0FE64F9DC89A62B32E05 /* Pods_Starwar_alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C90D179FC7990890522AA155 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DFF59A73291F7C38676B726 /* Pods-Starwar-alamofire.debug.xcconfig */,
+				69F569E2752194B774B1A45E /* Pods-Starwar-alamofire.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1789168124125E92001AE293 /* Build configuration list for PBXNativeTarget "Starwar-alamofire" */;
 			buildPhases = (
+				35D97114DEBF203CE5C0A6BB /* [CP] Check Pods Manifest.lock */,
 				1789166624125E8F001AE293 /* Sources */,
 				1789166724125E8F001AE293 /* Frameworks */,
 				1789166824125E8F001AE293 /* Resources */,
+				9431CCF82C71AF142FD9A59A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +180,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35D97114DEBF203CE5C0A6BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Starwar-alamofire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9431CCF82C71AF142FD9A59A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Starwar-alamofire/Pods-Starwar-alamofire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Starwar-alamofire/Pods-Starwar-alamofire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Starwar-alamofire/Pods-Starwar-alamofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1789166624125E8F001AE293 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -144,7 +230,10 @@
 				1789167224125E8F001AE293 /* ViewController.swift in Sources */,
 				1789167824125E8F001AE293 /* Starwar_alamofire.xcdatamodeld in Sources */,
 				1789166E24125E8F001AE293 /* AppDelegate.swift in Sources */,
+				1789168624125ED4001AE293 /* PersonApi.swift in Sources */,
+				1789168A241260EA001AE293 /* Person.swift in Sources */,
 				1789167024125E8F001AE293 /* SceneDelegate.swift in Sources */,
+				1789168824126012001AE293 /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +375,7 @@
 		};
 		1789168224125E92001AE293 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DFF59A73291F7C38676B726 /* Pods-Starwar-alamofire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +394,7 @@
 		};
 		1789168324125E92001AE293 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F569E2752194B774B1A45E /* Pods-Starwar-alamofire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

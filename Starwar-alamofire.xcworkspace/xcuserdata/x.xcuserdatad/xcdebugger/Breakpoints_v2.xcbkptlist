@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "37C151FF-0ED4-49FD-9FD0-676CECB67E57"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77186405-301C-48ED-9430-980A5EF0B617"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Starwar-alamofire/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "77186405-301C-48ED-9430-980A5EF0B617 - f0cfd0b10a6489bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Starwar_alamofire.ViewController.fetchData() -&gt; ()"
+                  moduleName = "Starwar-alamofire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/x/Documents/Starwar-alamofire/Starwar-alamofire/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "77186405-301C-48ED-9430-980A5EF0B617 - 82dcb1adc79bb8b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Starwar_alamofire.Person&gt;) -&gt; () in Starwar_alamofire.ViewController.fetchData() -&gt; ()"
+                  moduleName = "Starwar-alamofire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/x/Documents/Starwar-alamofire/Starwar-alamofire/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "205">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
